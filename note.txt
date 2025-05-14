@@ -1,0 +1,7 @@
+Các bước đẩy code lên git
+
+Gõ lần lượt các lệnh sau
+
+git add .
+git commit -m "Noi dung"
+git push

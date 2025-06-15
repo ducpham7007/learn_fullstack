@@ -1,0 +1,11 @@
+.title::before{ content: "A";}
+.title::after{ content: "B"}
+p::first-line {color:red}
+p::first-letter{color: darkcyan;}
+p::selection{background: black; color: blueviolet;
+}
+.input-group{background:black;}
+input {
+    background: black;
+}
+input::placeholder{color:white;}

@@ -1,0 +1,13 @@
+/* .title{color: brown;}
+.title:hover{ color: aqua;}
+.title:active{ color: blueviolet;} */
+/* button:focus{background: green;}
+input:focus{background: yellow;}
+input:focus::placeholder{color: red;} */
+/* .checkbox input:checked ~ span {color: red;}
+.checkbox:not(.active) span{color: blueviolet;} */
+/* ul li:first-of-type{color: red;}
+ul li:last-of-type{color: blueviolet;} */
+/* ul li:nth-of-type(2){color: blueviolet;}
+ul li:nth-of-type(5){color: red;} */
+/* ul li:nth-child(2n+2){colo}

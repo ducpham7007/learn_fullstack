@@ -1,0 +1,30 @@
+/* body {
+    background-color: yellow;
+}
+h1 {
+    background-color: red;
+}
+p {
+    background-color: blueviolet; */
+
+/* body { */
+    /* height: 2000px; */
+    /* background-image: url(https://fastly.picsum.photos/id/970/536/354.jpg?hmac=-I_kAQ2oSC5ehwhlMHJi7XzxtvIUaLVK_-LHgu_4FHc);
+    background-repeat: no-repeat;
+    background-position:0 0;
+    background-size: auto auto;
+    background-attachment: fixed; */
+    /* background: yellow 
+    url(https://fastly.picsum.photos/id/970/536/354.jpg?hmac=-I_kAQ2oSC5ehwhlMHJi7XzxtvIUaLVK_-LHgu_4FHc)
+    no-repeat 0 0 / auto auto fixed; */
+/* } */
+.box {
+    background: yellow;
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    line-height: 300px;
+}
+.box:hover{
+    background-image: url(https://fastly.picsum.photos/id/970/536/354.jpg?hmac=-I_kAQ2oSC5ehwhlMHJi7XzxtvIUaLVK_-LHgu_4FHc);
+}

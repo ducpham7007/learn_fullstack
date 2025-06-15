@@ -1,0 +1,19 @@
+/* .box-1{background:gray}
+.box-2{background: red;}
+.box-1,.box-2{ color: blue;} */
+ /* .title.title-large{color: red;} */
+
+ /* h2.text{ color: red;} */
+ /* p ~ h2{color: red;} */
+/* .box p~ ul li a{color: antiquewhite;} */
+/* h2 + h2 {color:blueviolet;} */
+/* a[href$=".net"] { color: red;}  */
+#green:checked  ~ div label:nth-of-type(1),.content {
+    color: green;
+}
+#blue:checked ~ div label:nth-of-type(2),.content{
+    color: blue;
+}
+#red:checked ~ div label:nth-of-type(3),.content{
+    color: red;
+}

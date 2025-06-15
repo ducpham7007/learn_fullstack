@@ -1,0 +1,46 @@
+/* .box{
+    background: green;
+    border-radius: 10px 10px 10px 10px; 
+}
+.circle {
+    width: 200px;
+    height: 200px;
+    background: yellow;
+    border-radius: 50%;
+}
+.box-2 {
+    width: 100px;
+    height: 40px;
+    background: green;
+    border-radius: 99px;
+} */
+ button{
+    width: 200px;
+    height: 70px;
+    background: green;
+    border-radius: 99px;
+    color: white;
+    border: 0 ;
+ }
+ .box {
+    width: 150px;
+    height: 60px;
+    color: red;
+    border-color:rgba(255, 0, 0, 0.605);
+    background: white;
+    border: 1px solid;
+
+ }
+ button:hover {
+    color: red;
+    background: white;
+    border-color:red;
+    border: 1px solid;
+
+ }
+ .box:hover {
+    color:white;
+    background: orange;
+    border-color: orange;
+    border: 0;
+ }

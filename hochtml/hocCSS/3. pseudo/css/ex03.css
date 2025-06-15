@@ -1,0 +1,4 @@
+#green:checked ~ .content label:nth-last-of-type(3),p{color: green;}
+#blue:checked ~ .content label:nth-last-of-type(2),p{color: blue;}
+#red:checked~ .content label:nth-last-of-type(1),p{color: red}
+

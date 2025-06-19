@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin-inline: auto;
+    gap: 12px;
+}
+.container > .aside-left {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.container .aside-left .aside-left-item {
+    display: flex;
+    gap: 12px;
+
+} 
+.container .aside-left .aside-left-item img {
+    width: 30%;
+}
+

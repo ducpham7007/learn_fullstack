@@ -1,0 +1,21 @@
+@media screen and (max-width: 991.98px) {
+  body {
+    color: red;
+  }
+  h1 {
+    font-size: italic;
+  }
+}
+@media screen and (max-width: 767.98px) {
+  body {
+    color: yellow;
+    background: blue;
+  }
+  h1 {
+    font-size: normal;
+    background: red;
+  }
+}
+body {
+  color: blueviolet;
+}

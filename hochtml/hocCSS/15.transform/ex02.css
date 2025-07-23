@@ -1,0 +1,11 @@
+.container {
+  width: 900px;
+  height: 200px;
+  border: 2px solid red;
+  margin-inline: auto;
+  margin-top: 50px;
+  display: block;
+}
+.container .inside-container {
+  padding: 50px;
+}

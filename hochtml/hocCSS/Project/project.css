@@ -6,6 +6,11 @@
 body {
   font-family: "Lato", sans-serif;
 }
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
 .header {
   display: flex;
   justify-content: space-evenly;
@@ -61,6 +66,7 @@ body {
   display: flex;
   justify-content: space-around;
   padding-inline: 96px;
+  padding-top: 20px;
 }
 .block {
   display: block;
@@ -76,9 +82,13 @@ body {
 .footer-address li {
   list-style: none;
 }
-.footer a {
+.form-email input[type="email"] {
+  background-color: #e0e0e0; /* màu xám nhạt */
+}
+.footer a,
+li {
   text-decoration: none;
-  color: black;
+  color: grey;
 }
 .wrap li {
   list-style: none;
@@ -146,12 +156,13 @@ h2 {
 .main-slide img {
   max-width: 100%;
   height: auto;
+  object-fit: cover;
 }
 .sub-text {
   display: flex;
   justify-content: space-between;
   padding-top: 40px;
-  width: 1370px;
+  width: 100%;
   height: auto;
   padding-inline: 96px;
   gap: 40px;
@@ -245,8 +256,9 @@ h2 {
   display: flex;
 }
 .secondery-message {
-  background-color: #9baa42;
+  background-color: #898f4b;
   color: #fff;
+  letter-spacing: 2px;
 }
 .secondery-message h2 {
   padding-left: 64px;
@@ -278,7 +290,7 @@ h2 {
   display: flex;
   justify-content: space-evenly;
   padding-inline: 96px;
-  gap: 20px;
+  gap: 5px;
 }
 .sub-feature img {
   width: 380px;
@@ -329,7 +341,7 @@ h2 {
 }
 .contact-box {
   background-color: #898f4b;
-  color: #fff;
+  width: 50%;
 }
 
 .contact-box h2 {
@@ -338,35 +350,57 @@ h2 {
   text-align: center;
   word-spacing: 0.3rem;
 }
-.sub-img ~ img {
+input::placeholder {
+  color: #000;
+  opacity: 1;
+}
+.sub-img img,
+.footer-img img {
   height: 100%;
   width: 100%;
   object-fit: cover;
   object-position: center center;
+}
+.contact-info a {
+  color: #9baa42;
 }
 
 .contact-item {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  padding-inline: 50px;
+  padding-inline: 100px;
 }
 
 .contact-item input {
   height: 30px;
+  width: 300px;
+  color: #000;
 }
-.contact-item button {
+.contact-action {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 40px;
+}
+.contact-action a,
+.footer-contact {
+  text-decoration: none;
+  color: #fff;
+}
+.contact-action > button {
   cursor: pointer;
+  width: 130px;
+  height: auto;
   background-color: #000;
   color: #fff;
-  width: 100px;
-  height: 35px;
-  text-transform: uppercase;
-  font-weight: bold;
+  font-weight: 700;
 }
+
 @media screen and (max-width: 1199.98px) {
   .header {
     display: flex;
+    justify-content: center;
   }
 
   .navbar {
@@ -427,5 +461,18 @@ h2 {
 
   .main-slide {
     padding-top: 200px;
+  }
+  .sub-text {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-top: 40px;
+    width: 1370px;
+    height: auto;
+    padding-inline: 96px;
+    gap: 40px;
+  }
+  .sub-text {
+    text-align: center;
   }
 }

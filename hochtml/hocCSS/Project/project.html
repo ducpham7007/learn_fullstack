@@ -18,6 +18,11 @@
   </head>
   <body>
     <div class="header">
+      <label for="menu-toggle" class="hamburger-menu">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </label>
       <a href="/" class="logo">
         <img
           src="https://hoanganit19.github.io/viedeli_k6/images/logo.png"
@@ -34,12 +39,6 @@
           <li><a href="#">khuyến mãi</a></li>
           <li><a href="#">tin tức</a></li>
           <li><a href="#">liên hệ</a></li>
-
-          <label for="menu-toggle" class="hamburger-menu">
-            <span class="line"></span>
-            <span class="line"></span>
-            <span class="line"></span>
-          </label>
 
           <label for="menu-toggle" class="overlay"></label>
         </ul>
@@ -166,9 +165,6 @@
             animi. Itaque optio adipisci voluptate inventore ab animi deserunt
             illum neque, est quisquam ullam architecto perspiciatis aspernatur
             magni nostrum omnis, asperiores eveniet ratione sequi magnam sed
-            veniam ea? Beatae quas voluptatibus facere eaque quod quidem rerum
-            nisi a, deleniti eum odio blanditiis iusto repudiandae architecto
-            aspernatur porro dolor minus in doloremque vitae dicta saepe libero?
           </p>
           <span> <a href="#">Xem thêm</a></span>
         </div>
@@ -277,12 +273,37 @@
         <div class="contact-box">
           <h2>Liên hệ mua hàng</h2>
           <div class="contact-item">
-            <input type="text" placeholder="HỌ VÀ TÊN" />
-            <input type="email" placeholder="EMAIL" />
-            <input type="number" placeholder="SỐ ĐIỆN THOẠI" />
-            <button type="submit">Liên hệ</button>
+            <div class="input-wrapper">
+              <i class="fa-solid fa-user"></i>
+              <input type="text" placeholder="HỌ VÀ TÊN" />
+            </div>
+
+            <div class="input-wrapper">
+              <i class="fa-solid fa-envelope"></i>
+              <input type="email" placeholder="EMAIL" />
+            </div>
+
+            <div class="input-wrapper">
+              <i class="fa-solid fa-phone"></i>
+              <input type="text" placeholder="SỐ ĐIỆN THOẠI" />
+            </div>
+          </div>
+
+          <div class="contact-action">
+            <button type="submit">LIÊN HỆ</button>
+            <div class="contact">
+              <img
+                src="https://hoanganit19.github.io/viedeli_k6/images/phone-icon.png"
+                alt="icon "
+              />
+              <div class="contact-info">
+                <span class="footer-contact">Hotline24/7</span>
+                <a href="tel:0901548866">090.154.8866</a>
+              </div>
+            </div>
           </div>
         </div>
+
         <div class="sub-img">
           <img
             src="https://hoanganit19.github.io/viedeli_k6/images/contact-right.jpg"
